@@ -1,23 +1,76 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<title>Portfolio</title>
-<link rel= "stylesheet" href="styles.css">
-<script src="main.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<svg class="svg-mask" width="1200px" height="600px" viewBox="0 0 1200 600">
- <defs>
-  <clipPath id="quarterMask">
-    <path d="M299.001,26.649L0,325.65c330.267,330.268,865.736,330.268,1196.004,0L897.003,26.649
-	C731.868,191.784,464.136,191.784,299.001,26.649z"/>
-  </clipPath>
- </defs>
-</svg>
-<div class="header"></div>
-<div class="content">
-  <div class="details">
-    <h1 class="title">Robert Suber</h1>
-    <hr class="small" />
-    <h6 class="roles">Front-End Developer</h6>
-    <a href="#" class="button">View Projects</a>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel= "stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Megrim|Raleway" rel="stylesheet">
+    <script src='//maps.googleapis.com/maps/api/js?key=AIzaSyCdRZc0JODGPlbVNc1ky1knYW0RG6lXzzA'></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link href="hover.css" rel="stylesheet" media="all">
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid" id="top">
+      <nav class="navbar navbar-default navbar-fixed-top" id="nav">
+  <div class="container-fluid" id="navcontainer">
+    <div class="navopts">
+    <div class="col-xs-1 logo"><img src="images/rs_logo.png"></div>
+    <p class="col-xs-2 about">ABOUT</p>
+    <p class="col-xs-2 projects">PROJECTS</p>
+    <p class="col-xs-2 contact">CONTACT</p>
   </div>
+  </div>
+</nav>
+      <div class="row">
+        <br>
+        <br>
+        <p class="col-xs-12" id="header">ROBERT SUBER</p>
+        <p class="col-xs-12" id="header2">FRONT END DEVELOPER</p>
+      </div>
+    </div>
+    <div class="container-fluid" id="dang">
+      <div class="row">
+          <h1 id="name"> Hey, I'm Robert.</h1>
+          <h2 id="jebus"> I am a FrontEnd Developer who enjoys taking a client's vision and bringing it to life. I specialize in clean and functional code. I am based out of the Lowcountry in my hometown of Beaufort, South Caorlina. I am always looking for a new challenge and am open to following the right opportunity to a new headquarters.</h2>
+          <img src="images/SkillSet.jpg" id="skills"></img>
+      </div>
+    </div>
+    <div class="container-fluid" id="projects">
+      <div class="row">
+        <h1 id="name">Projects</h1>
+        <section class="hvr-shutter-out-vertical"id="example1">
+          <p id="title1">Search & Enjoy</p>
+          <p>Search & Enjoy is the final project I worked on at the Ironyard, along with two others. It is a mobile scavengerhunt game made for the Charleston Area.
+          You must answer a series of riddles about historical landmarks in a competition against other teams. I worked on alot of the core funcitonality of the website including the google maps api integration.</p>
+        </section>
+        <section class="hvr-shutter-out-vertical" id="example2">
+          <p id="title1">Palm Properties</p>
+          <p>This is the first website I developed outside of the ironyard. I developed this using bootstrap and angular<p>
+        </section>
+        <section class="hvr-shutter-out-vertical" id="example3">
+          <p id="title1">Skating Website</p>
+          <p>This was the first responsive design project I worked on at the IronYard.<p>
+      </section>
+    </div>
+  </div>
+  <div class="container-fluid" id="contact11">
+    <div class="row">
+    <h1 class="col-xs-12" id="name">Get In Touch</h1>
+  </div>
+  <div class="container"id="profile"></div>
+    <p>rsuber1992@gmail.com</p>
+  <p>843-540-4520</p>
+  </div>
+  <div class="container" id="contact">
+     <a class="col-xs-1 GitHub" id="icon"href="https://github.com/rsuber">
+      <img src="images/GitHub-Mark-64px.png">
+    </a>
+      <a class="col-xs-1" id="icon" href="https://www.linkedin.com/in/robert-suber-14540a126">
+<img src="images/linkedinicon.png">
+</a>
+<div class="col-xs-1" id="icon"><img src="images/emailicon.png"</div>
 </div>
+  </body>
+</html>
