@@ -1,192 +1,191 @@
 body {
-	padding-top: 70;
-}
+  padding-top: 70; }
+
 #nav {
-	background-color: #e1e1e1 !important;
-}
+  background-color: #e1e1e1 !important; }
+
 #navcontainer {
-	margin-left: 0;
-	width: 100%;
-}
+  margin-left: 0;
+  width: 100%; }
+
 #top {
-	background-image: url("/images/ncj0zbliaak-flo-karr.jpg");
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-position: center;
-	height: 1250px;
-}
+  background-image: url("images/ncj0zbliaak-flo-karr.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 1250px; }
+
 #header {
-	font-family: 'Megrim', cursive;
-	font-size: 140px;
-	margin-top: 20%;
-	text-align: center;
-	color: white;
-	font-weight: bolder;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
+  font-family: 'Megrim', cursive;
+  font-size: 140px;
+  margin-top: 20%;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+
 #header2 {
-	font-family: 'Raleway', cursive;
-	font-size: 50px;
-	text-align: center;
-	color: white;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
+  font-family: 'Raleway', cursive;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+
 #dang {
-	background-color: white;
-	/*height:1090px;*/
-}
+  background-color: white;
+  /*height:1090px;*/ }
+
 #button {
-	color: red;
-	border: 15px solid red;
-}
+  color: red;
+  border: 15px solid red; }
+
 #name {
-	font-family: 'Raleway', cursive;
-	text-align: center;
-	padding-top: 150px;
-	font-size: 500%;
-	margin-bottom: 3%;
-}
+  font-family: 'Raleway', cursive;
+  text-align: center;
+  padding-top: 150px;
+  font-size: 500%;
+  margin-bottom: 3%; }
+
 #jebus {
-	font-family: 'Raleway', cursive;
-	text-align: center;
-	font-size: 200%;
-	padding-top: 5%;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-bottom: 5%;
-	margin: auto;
-}
+  font-family: 'Raleway',cursive;
+  text-align: center;
+  font-size: 200%;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  margin: auto; }
+
 #skills {
-	width: 800px;
-	margin: auto;
-	display: block;
-}
+  width: 800px;
+  margin: auto;
+  display: block; }
+
 #projects {
-	font-family: 'Raleway', cursive;
-}
+  font-family: 'Raleway', cursive; }
+
 #example1 {
-	height: 700px;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	width: 60%;
-	margin-left: 20%;
-	margin-bottom: 3%;
-	background-image: url("/images/SAE.png");
-}
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 3%;
+  background-image: url("images/SAE.png"); }
+
 #example1 p {
-	opacity: 0;
-	font-size: 200%;
-	text-align: center;
-	padding-top: 0%;
-	padding-left: 5%;
-	padding-right: 5%;
-	font-family: 'Raleway', cursive;
-}
+  opacity: 0;
+  font-size: 200%;
+  text-align: center;
+  padding-top: 0%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: 'Raleway', cursive; }
+
 #example2 p {
-	opacity: 0;
-	font-size: 300%;
-	text-align: center;
-	padding-top: 0%;
-	padding-left: 5%;
-	padding-right: 5%;
-	font-family: 'Raleway', cursive;
-}
+  opacity: 0;
+  font-size: 300%;
+  text-align: center;
+  padding-top: 0%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: 'Raleway', cursive; }
+
 #example3 p {
-	opacity: 0;
-	font-size: 300%;
-	text-align: center;
-	padding-top: 0%;
-	padding-left: 5%;
-	padding-right: 5%;
-	font-family: 'Raleway', cursive;
-}
+  opacity: 0;
+  font-size: 300%;
+  text-align: center;
+  padding-top: 0%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: 'Raleway', cursive; }
+
 #example1:hover p {
-	opacity: 1;
-	-webkit-transition-duration: 2s;
-	transition-duration: 2s;
-}
+  opacity: 1;
+  -webkit-transition-duration: 2s;
+  transition-duration: 2s; }
+
 #example2:hover p {
-	opacity: 1;
-	-webkit-transition-duration: 2s;
-	transition-duration: 2s;
-}
+  opacity: 1;
+  -webkit-transition-duration: 2s;
+  transition-duration: 2s; }
+
 #example3:hover p {
-	opacity: 1;
-	-webkit-transition-duration: 2s;
-	transition-duration: 2s;
-}
+  opacity: 1;
+  -webkit-transition-duration: 2s;
+  transition-duration: 2s; }
+
 #example2 {
-	height: 700px;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	width: 60%;
-	margin-left: 20%;
-	margin-bottom: 3%;
-	background-image: url("/images/PalmProp.png");
-}
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 3%;
+  background-image: url("images/Palmetto.jpg"); }
+
 #example3 {
-	height: 700px;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	width: 60%;
-	margin-left: 20%;
-	margin-bottom: 3%;
-	background-image: url("/images/SkaterWebsite.png");
-}
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 3%;
+  background-image: url("images/SkaterWebsite.png"); }
+
 #contact {
-	width: 100%;
-	height: 150px;
-	padding: 0;
-	background-color: #e1e1e1;
-}
+  width: 100%;
+  height: 150px;
+  padding: 0;
+  background-color: #e1e1e1; }
+
 #icon {
-	padding: 0;
-}
+  padding: 0; }
+
 #icon img {
-	padding-top: 40px;
-	width: 90px;
-}
+  padding-top: 40px;
+  width: 90px; }
+
 .navopts p {
-	padding-top: 25px;
-	font-size: 150%;
-	font-family: 'Raleway', cursive;
-}
+  padding-top: 25px;
+  font-size: 150%;
+  font-family: 'Raleway', cursive; }
+
 .navopts img {
-	width: 77%;
-}
+  width: 77%; }
+
 #title1 {
-	font-family: 'Megrim', cursive !important;
-	font-size: 400% !important;
-}
+  font-family: 'Megrim', cursive !important;
+  font-size: 400% !important; }
+
 #contact11 {
-	text-align: center;
-	padding-bottom: 100px;
-}
+  text-align: center;
+  padding-bottom: 100px; }
+
 #contact11 p {
-	font-family: 'Raleway';
-	font-size: 200%;
-	padding-top: 10px;
-}
+  font-family: 'Raleway';
+  font-size: 200%;
+  padding-top: 10px; }
+
 #contact11 a {
-	margin-top: 20px;
-	font-size: 200%;
-	font-family: 'Raleway';
-}
+  margin-top: 20px;
+  font-size: 200%;
+  font-family: 'Raleway'; }
+
 #profile {
-	background-image: url("images/DSC_0100.jpg");
-	border-radius: 57%;
-	background-size: 230%;
-	zoom: inherit;
-	background-repeat: no-repeat;
-	height: 159px;
-	width: 164px;
-	background-position-x: 70%;
-	background-position-y: 37%;
-	margin-bottom: 1%;
-}
+  background-image: url("images/DSC_0100.jpg");
+  border-radius: 57%;
+  background-size: 230%;
+  zoom: inherit;
+  background-repeat: no-repeat;
+  height: 159px;
+  width: 164px;
+  background-position-x: 70%;
+  background-position-y: 37%;
+  margin-bottom: 1%; }
+
 .GitHub {
-	padding-left: 10px !important;
-}
+  padding-left: 10px !important; }
