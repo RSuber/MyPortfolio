@@ -10,7 +10,7 @@ body{
 }
 #top {
 
-  background-image:url('/images/ncj0zbliaak-flo-karr.jpg');
+  background-image:url('images/ncj0zbliaak-flo-karr.jpg');
   background-repeat:no-repeat;
 -webkit-background-size:cover;
 -moz-background-size:cover;
@@ -75,7 +75,7 @@ background-size: 100% 100%;
 width:60%;
 margin-left:20%;
 margin-bottom:3%;
-background-image:url('/images/SAE.png');
+background-image:url('images/SAE.png');
 }
 #example1 p {
 opacity:0;
@@ -127,7 +127,7 @@ background-size: 100% 100%;
 width:60%;
 margin-left:20%;
 margin-bottom:3%;
-background-image:url('/images/PalmProp.png');
+background-image:url('images/PalmProp.png');
 }
 #example3{
 height: 700px;
@@ -136,7 +136,7 @@ background-size: 100% 100%;
 width:60%;
 margin-left:20%;
 margin-bottom:3%;
-background-image:url('/images/SkaterWebsite.png');
+background-image:url('images/SkaterWebsite.png');
 }
 #contact{
   width:100%;
